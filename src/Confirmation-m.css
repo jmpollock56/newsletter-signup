@@ -1,0 +1,26 @@
+@media screen and (max-width: 850px) {
+
+  .pop-up{
+    width: 374px;
+    height: 800px;
+  }
+
+  .pop-up-main{
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pop-up-main > h1{
+    font-size: 40px;
+  }
+
+  .pop-up-main > p{
+    font-size: 15px;
+  }
+
+  .pop-up-main > button{
+    position: relative;
+    top: 270px;
+  }
+}
